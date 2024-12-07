@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: dream;
+    src: url(FontsFree-Net-Dream-Avenue.ttf.ttf);
+}
+
+.head{
+    display: flex;
+    gap: 5%;
+    color: rgb(255, 255, 255);
+    padding-right: 2%;
+    padding: 10px;
+    
+}
+.left{
+    margin-top:1.6%;
+    padding: 10px;
+    border: 2px solid burlywood;
+}
+img{
+    border: 2px solid rgb(241, 241, 241);
+    height: 340px;
+}
+body{
+    margin:0%;
+    background-color: rgb(78, 39, 39);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-family: dream;
+    background-image: url(./images/backgound.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+}
+.content{
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.journey{
+    padding: 10px;
+    padding-right: 2%;
+}
+.projects h1{
+    padding: 10px;
+}
+
+.proj-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    padding-right: 2%;
+    
+}
+.contact{
+    padding: 10px;
+}
+.proj-desc{
+text-align: center;
+}
+.proj-desc img{
+    width: 450px;
+    height: auto;
+}
